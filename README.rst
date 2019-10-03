@@ -7,7 +7,9 @@ Getting Started
 1.Clone project and install it:
 
       git clone https://github.com/MehdioKhan/django-domainname
+      
       cd djanago-domainname
+      
       python setup.py install
 
 2.Add django_dnf to installed list in settings file:
@@ -26,6 +28,7 @@ models.py
       
       class MyModel(models.Model):
         doamin = DomainNameField(blank=True)
+        
         ...
         
 forms.py
@@ -35,4 +38,5 @@ forms.py
       
       class MyForm(forms.Form):
         doamin = DomainNameField(blank=True)
+        
         ...
