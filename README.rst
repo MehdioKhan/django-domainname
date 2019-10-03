@@ -1,9 +1,7 @@
-=================
 django-domainname
 =================
 django-dominname is a simple django app including a model field and a form field to deal with Domain names.
 
-===============
 Getting Started
 ===============
 1. Clone project and install it:
