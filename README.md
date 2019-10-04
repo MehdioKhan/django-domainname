@@ -4,12 +4,16 @@ django-dominname is a simple django app including a model field and a form field
 
 # Getting Started
 
-1.Clone project and install it:
+1.Installation:
 
       git clone https://github.com/MehdioKhan/django-domainname
       cd djanago-domainname
       python setup.py install
 
+or
+
+      pip install django-domainname
+      
 2.Add django_dnf to installed list in settings file:
       
             INSTALLED_APPS = [
