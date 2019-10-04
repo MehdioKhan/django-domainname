@@ -2,7 +2,7 @@ import os
 from setuptools import find_packages, setup
 
 version = "0.1"
-with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
+with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
     README = readme.read()
 
 # allow setup.py to be run from any path
@@ -16,6 +16,7 @@ setup(
     license='GNU License',
     description='Domain name model field and form field for Django.',
     long_description=README,
+    long_description_content_type='text/markdown',
     url='https://github.com/MehdioKhan/django-domainname',
     author='Mahdi Khanmohammadi',
     author_email='mehdiokhan@gmail.com',
